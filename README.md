@@ -19,7 +19,7 @@ The goal is to build a lightweight yet powerful pipeline to extract, analyze, an
 - Filtered posts using crisis-related keywords like “suicidal”, “help me”, “feeling empty”.
 - Cleaned raw text by removing emojis, URLs, punctuation, and stopwords using `emoji`, `re`, and `nltk`.
 
-🔄 **Why?**  
+ **Why?**  
 Initial attempts with raw text led to messy downstream results. Preprocessing significantly improved classification accuracy.
 
 ---
@@ -33,7 +33,7 @@ Initial attempts with raw text led to messy downstream results. Preprocessing si
   -  **Moderate Concern**: “I feel lost lately”
   -  **Low Concern**: General mental health conversations
 
-🔄 **Why?**  
+ **Why?**  
 Rule-based filtering missed semantic variations. TF-IDF + KMeans improved sensitivity and allowed for unsupervised discovery of patterns.
 
 ---
@@ -47,7 +47,7 @@ Rule-based filtering missed semantic variations. TF-IDF + KMeans improved sensit
   - Used labeled markers for clarity
   - Inline display in Google Colab supported via `/files/` iframe
 
-🔄 **Why?**  
+ **Why?**  
 Raw NLP models often misidentify common words as places. Cross-checking with real maps solved this.
 
 ---
