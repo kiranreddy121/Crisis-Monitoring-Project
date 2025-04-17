@@ -1,6 +1,6 @@
 # Crisis-Monitoring-Project
 
-This project was developed as part of the Google Summer of Code (GSoC) candidate assessment. The goal is to build a lightweight yet powerful pipeline to extract, analyze, and map crisis-related discussions from Reddit using Natural Language Processing (NLP).
+The goal is to build a lightweight yet powerful pipeline to extract, analyze, and map crisis-related discussions from Reddit using Natural Language Processing (NLP).
 
 ---
 
